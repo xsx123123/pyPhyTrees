@@ -126,7 +126,7 @@ python main.py sequences.fasta --visualization-style all
 # 使用关系 CSV 文件绘制颜色分组图
 python main.py plot --relation ./data/test_relations.csv --visualization-style all tree.nwk
 ```
-![color graph example](./data/phylogenetic_tree_circular_circular.png)
+![color graph example](../data/phylogenetic_tree_circular_circular.png)
 
 ### 详细帮助
 ```bash
