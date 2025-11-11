@@ -117,7 +117,7 @@ python main.py sequences.fasta --visualization-style all
 # draw color gropgraph by relation csv file
 python main.py plot --relation ./data/test_relations.csv --visualization-style all tree.nwk
 ```
-[color gropgraph example](./data/phylogenetic_tree_circular_circular.png)
+![color gropgraph example](./data/phylogenetic_tree_circular_circular.png)
 
 
 ### Rich Help
