@@ -1,0 +1,27 @@
+software:
+  version: v0.1
+  app_name: pyPhyTrees
+  description: Phylogenetic Tree Construction and Visualization Tool
+  rice_color: "bold cyan"
+
+logs:
+  log_level: "INFO"
+  more_info: true
+  project_id: "pyPhyTrees"
+
+hydra:
+  run:
+    dir: .
+  sweep:
+    dir: .
+# Special command field to control program behavior
+command: null
+input_file: null
+output: "phylogenetic_tree_circular.png"
+tree_file: "tree.nwk"
+alignment_file: "aligned.fasta"
+seq_type: null
+bootstrap: 100
+threads: 8
+group: null
+keep_all_files: false
