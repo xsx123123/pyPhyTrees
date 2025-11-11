@@ -84,10 +84,19 @@ python main.py sequences.fasta -g 'Group1:seq1,seq2' -g 'Group2:seq3,seq4'
 Create a CSV file with format: `sequence,group,color` (color is optional)
 ```csv
 sequence,group,color
-seq1,GroupA,#FF0000
-seq2,GroupA,#FF0000
-seq3,GroupB,#0000FF
-seq4,GroupB,#0000FF
+gene00975,group1,#CC79A7
+gene01152,group1,#CC79A7
+gene03450,group1,#CC79A7
+gene01844,group2,#0072B2
+gene04400,group2,#0072B2
+gene08217,group2,#0072B2
+gene04911,group3,#56B4E9
+gene04913,group3,#56B4E9
+gene04916,group3,#56B4E9
+gene04917,group3,#56B4E9
+gene08838,group4,#009E73
+gene08873,group4,#009E73
+gene04810,group4,#009E73
 ```
 
 Then use:
@@ -166,22 +175,37 @@ The `--relation` option accepts CSV files with the following columns:
 Example CSV file:
 ```csv
 sequence,group,color
-gene00975,GroupA,#FF0000
-gene01152,GroupA,#FF0000
-gene03450,GroupA,#FF0000
-gene01844,GroupB,#0000FF
-gene04400,GroupB,#0000FF
-gene01985,GroupC,#00FF00
-gene08479,GroupC,#00FF00
+gene00975,group1,#CC79A7
+gene01152,group1,#CC79A7
+gene03450,group1,#CC79A7
+gene01844,group2,#0072B2
+gene04400,group2,#0072B2
+gene08217,group2,#0072B2
+gene04911,group3,#56B4E9
+gene04913,group3,#56B4E9
+gene04916,group3,#56B4E9
+gene04917,group3,#56B4E9
+gene08838,group4,#009E73
+gene08873,group4,#009E73
+gene04810,group4,#009E73
 ```
 
 You can also use a simpler format without colors, and the system will automatically assign colors:
 ```csv
 sequence,group
-seq1,GroupA
-seq2,GroupA
-seq3,GroupB
-seq4,GroupB
+gene00975,group1
+gene01152,group1
+gene03450,group1
+gene01844,group2
+gene04400,group2
+gene08217,group2
+gene04911,group3
+gene04913,group3
+gene04916,group3
+gene04917,group3
+gene08838,group4
+gene08873,group4
+gene04810,group4
 ```
 
 ## Features
